@@ -14,7 +14,7 @@ const Navbar = () => {
      <nav id='navbar' className='border-b border-b-[#D4D7E5]'>
         <div className="container px-5 lg:px-10">
             <div id='food_row' className="py-6 flex  justify-between">
-                <div className="logo w-[100px]">
+                <div className="logo w-[100px] lg:w-fit">
                     <img src={logo} className='w-full object-contain' alt='error' />
                 </div>
 
